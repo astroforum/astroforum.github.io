@@ -3,7 +3,7 @@ lang: en
 layout: profiles
 permalink: /members/
 title: members
-description: members of Astro Lab
+description: members of Team ASTRO
 nav: false
 
 profiles:

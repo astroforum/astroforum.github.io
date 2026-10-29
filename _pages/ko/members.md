@@ -3,7 +3,7 @@ lang: ko
 layout: profiles
 permalink: /members/
 title: 멤버
-description: 구조소재용 합금설계 연구실(ASTRO Lab) 멤버
+description: Team ASTRO 멤버
 nav: false
 
 profiles:

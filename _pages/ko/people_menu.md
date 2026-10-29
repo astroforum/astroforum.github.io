@@ -1,7 +1,7 @@
 ---
 lang: ko
 layout: page
-title: 구성원
+title: 팀
 permalink: /people-menu/
 nav: true
 nav_order: 1

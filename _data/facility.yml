@@ -5,7 +5,10 @@
 #     image: facility/arc.jpg   # optional, file in assets/img/facility/
 - category: Sample Preparation
   category_ko: 시편 제작
-  items: []
+  items:
+    - name: Auto Grinder/Polisher (twin-wheel)
+      maker: TOPTECH
+      image: blog/2026-06-polisher.jpg
 - category: Microstructure Analysis
   category_ko: 미세조직 분석
   items: []

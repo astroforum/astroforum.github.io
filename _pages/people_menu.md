@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: page
-title: people
+title: team
 permalink: /people-menu/
 nav: true
 nav_order: 1
