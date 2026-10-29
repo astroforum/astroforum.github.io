@@ -1,7 +1,0 @@
-# 논문 목록. DOI만 넣으면 제목/저자/저널이 자동으로 채워집니다.
-# 예:
-# - id: doi:10.1016/j.actamat.2020.01.001
-#   image: images/papers/xxx.png   # (선택) 대표 그림
-#   tags:
-#     - alloy
-[]
