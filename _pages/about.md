@@ -7,7 +7,7 @@ subtitle: "Department of Materials Science and Engineering, Hanbat National Univ
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_id.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Office: Room 510, Bldg. N8<br>Lab: Room 415, Bldg. N8<br>Hanbat National University<br>125 Dongseo-daero, Yuseong-gu, Daejeon 34158, Korea</p>

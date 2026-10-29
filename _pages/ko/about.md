@@ -7,7 +7,7 @@ subtitle: "국립한밭대학교 신소재공학과"
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_id.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>연구실: N8동 510호<br>실험실: N8동 415호<br>국립한밭대학교<br>대전광역시 유성구 동서대로 125 (34158)</p>
