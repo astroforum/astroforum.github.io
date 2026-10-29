@@ -14,6 +14,6 @@ profiles:
     content: about_pi.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>[email@university.ac.kr]<br>Office: Room 510, Bldg. N8<br>Lab: Room 415, Bldg. N8</p>
+      <p>kyoon@hanbat.ac.kr<br>Tel: +82-42-821-1252<br>Office: Room 510, Bldg. N8<br>Lab: Room 415, Bldg. N8</p>
 
 ---
