@@ -366,8 +366,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Yoon]
+  first_name: [K.N., K., K. N., Kook Noh, Kooknoh]
 
   style: apa
   locale: en
