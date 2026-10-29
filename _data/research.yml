@@ -15,10 +15,6 @@
       doi: 10.1002/smtd.202500667
     - text: "Irradiation-induced gas production in REBCO-based magnet materials, J. Appl. Phys. (2025)"
       doi: 10.1063/5.0263824
-- title: Hydrogen Storage Materials
-  title_ko: 수소저장 소재
-  desc: Hydrogen storage alloys take up and release hydrogen reversibly. We design storage materials and evaluate their properties.
-  desc_ko: 수소저장 합금은 수소를 가역적으로 흡수하고 방출합니다. 수소저장 소재를 설계하고 그 특성을 평가합니다.
 - title: High-Entropy Alloys
   title_ko: 고엔트로피 합금
   desc: High-entropy alloys mix several principal elements and open a vast composition space. We design HEAs for strength, ductility and damage tolerance, and look for simple measurements that predict their properties.
@@ -48,3 +44,7 @@
   papers:
     - text: "Water Etched Porous Ti: Surface Manipulation of Ti Foam by Liquid Metal Dealloying, Small Methods (2024), Cover"
       doi: 10.1002/smtd.202401092
+- title: Machine Learning and AI-Based Alloy Design
+  title_ko: 머신러닝 및 AI 기반 합금설계
+  desc: The composition space of multicomponent alloys is too large to explore by trial and error. We combine thermodynamic knowledge and experimental data with machine learning and AI to find promising compositions faster.
+  desc_ko: 다원계 합금의 조성 공간은 시행착오로 탐색하기에는 너무 넓습니다. 열역학 지식과 실험 데이터를 머신러닝·AI와 결합해 유망한 조성을 더 빠르게 찾습니다.
