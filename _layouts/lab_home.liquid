@@ -11,8 +11,13 @@ layout: default
 <div class="post astro-home">
   <section class="astro-hero">
     <img
-      class="astro-hero-logo"
-      src="{{ '/assets/img/logo/astro-logo-horizontal-mono-reverse.svg' | relative_url }}"
+      class="astro-hero-logo astro-hero-light"
+      src="{{ '/assets/img/logo/astro-logo-horizontal-primary.svg' | relative_url }}"
+      alt="ASTRO Lab"
+    >
+    <img
+      class="astro-hero-logo astro-hero-dark"
+      src="{{ '/assets/img/logo/astro-logo-horizontal-dark.svg' | relative_url }}"
       alt="ASTRO Lab"
     >
     <p class="astro-hero-sub">{{ page.subtitle }}</p>
@@ -57,15 +62,16 @@ layout: default
 
 <style>
   .astro-hero {
-    background: #1f2a44;
-    color: #fff;
-    border-radius: 0.5rem;
-    padding: 2.5rem 1.5rem 2rem;
-    margin: 1rem 0 2rem;
+    padding: 2rem 0 1.75rem;
+    margin: 0.5rem 0 2rem;
+    border-bottom: 1px solid var(--global-divider-color);
     text-align: center;
   }
-  .astro-hero-logo { width: 100%; max-width: 420px; height: auto; }
-  .astro-hero p.astro-hero-sub { color: #fff; opacity: 0.85; margin: 1.25rem 0 0; font-size: 1rem; }
+  .astro-hero-logo { width: 100%; max-width: 460px; height: auto; }
+  .astro-hero-dark { display: none; }
+  html[data-theme="dark"] .astro-hero-light { display: none; }
+  html[data-theme="dark"] .astro-hero-dark { display: inline; }
+  .astro-hero p.astro-hero-sub { color: var(--global-text-color-light); margin: 1rem 0 0; font-size: 1rem; }
   .astro-intro { margin-bottom: 1.5rem; }
   .astro-cards {
     display: grid;
@@ -85,7 +91,7 @@ layout: default
   .astro-contact p { margin-bottom: 0.75rem; }
   .astro-contact .contact-icons { font-size: 1.6rem; }
   @media (max-width: 575.98px) {
-    .astro-hero { padding: 1.75rem 1rem 1.5rem; }
+    .astro-hero { padding: 1.25rem 0 1.25rem; }
     .astro-hero p.astro-hero-sub { font-size: 0.85rem; }
   }
 </style>
