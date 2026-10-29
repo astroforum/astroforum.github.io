@@ -17,6 +17,8 @@
         /* Phone layout */
         @media (max-width: 575.98px) {
           .navbar-collapse-main.show, .navbar-collapse-main.collapsing { background: var(--global-bg-color); padding-bottom: 0.5rem; }
+          #navbar { opacity: 1; }
+          #navbar:has(.navbar-collapse-main.show) { box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12); }
           .astro-lang { padding: 0.5rem 0; }
           .profile { width: 65% !important; float: none !important; margin: 0 auto 1.5rem !important; }
           .profile .more-info { font-size: 0.8rem; }
