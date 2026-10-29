@@ -3,7 +3,7 @@ lang: ko
 layout: profiles
 permalink: /members/
 title: 멤버
-description: Team ASTRO 멤버
+description: ASTRO Lab 멤버
 nav: false
 
 profiles:
