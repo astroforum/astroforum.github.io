@@ -3,7 +3,7 @@ lang: en
 layout: about
 title: about
 permalink: /
-subtitle: "[Department], Hanbat National University"
+subtitle: "Department of Materials Science and Engineering, Hanbat National University"
 
 profile:
   align: right
