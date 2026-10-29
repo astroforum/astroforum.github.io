@@ -10,7 +10,7 @@
 <p class="astro-area-label">{% if ko %}관련 논문{% else %}Related publications{% endif %}</p>
 <ul class="astro-area-papers">
 {% for paper in area.papers %}
-<li><a href="https://doi.org/{{ paper.doi }}" target="_blank" rel="noopener">{{ paper.text }}</a></li>
+<li>{% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}" target="_blank" rel="noopener">{{ paper.text }}</a>{% else %}{{ paper.text }}{% endif %}</li>
 {% endfor %}
 </ul>
 {% endif %}

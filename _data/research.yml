@@ -2,8 +2,10 @@
 # papers: related publications (newest first); cover: journal cover in assets/img/publication_preview/
 - title: High-Temperature Superalloys
   title_ko: 초내열합금
-  desc: Superalloys keep their strength at temperatures where most metals soften. We design superalloy compositions and evaluate their high-temperature mechanical behavior.
-  desc_ko: 초내열합금은 대부분의 금속이 물러지는 고온에서도 강도를 유지합니다. 초내열합금 조성을 설계하고 고온 기계적 거동을 평가합니다.
+  desc: Superalloys keep their strength at temperatures where most metals soften. We design superalloy compositions, including self-healable Co-based superalloys, and evaluate their high-temperature mechanical behavior.
+  desc_ko: 초내열합금은 대부분의 금속이 물러지는 고온에서도 강도를 유지합니다. 자가치유(self-healable) Co계 초내열합금을 비롯한 초내열합금 조성을 설계하고 고온 기계적 거동을 평가합니다.
+  papers:
+    - text: "K.N. Yoon, Development of Self-healable Co-based Superalloys, Ph.D. Thesis, Seoul National University (2022)"
 - title: Nuclear Materials
   title_ko: 원자력 재료
   desc: Fusion and fission reactors expose structural materials to irradiation, heat and coolants. We develop and test materials for these environments, such as W-rich refractory high-entropy alloy–Cu composites for reactor coolant systems.
