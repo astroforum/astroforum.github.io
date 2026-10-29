@@ -1,0 +1,11 @@
+# Journal covers shown on the home page (newest first). Images live in assets/img/publication_preview/.
+- image: cover_smtd_2025.jpg
+  journal: Small Methods
+  issue: Vol. 9, No. 12 (Dec 2025)
+  title: "Bi-Continuous W-Rich Refractory High Entropy Alloy-Cu Composite: Toward Material Innovation of Nuclear Reactor Coolant System"
+  doi: 10.1002/smtd.202500667
+- image: cover_smtd_2024.jpg
+  journal: Small Methods
+  issue: Dec 2024
+  title: "Water Etched Porous Ti: Surface Manipulation of Ti Foam Fabricated by Liquid Metal Dealloying Technique"
+  doi: 10.1002/smtd.202401092

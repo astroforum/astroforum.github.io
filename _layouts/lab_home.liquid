@@ -43,6 +43,20 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    {% if site.data.covers %}
+      <h2>cover articles</h2>
+      <div class="astro-covers">
+        {% for cover in site.data.covers %}
+          <a class="astro-cover" href="https://doi.org/{{ cover.doi }}" target="_blank" rel="noopener">
+            <img src="{{ cover.image | prepend: '/assets/img/publication_preview/' | relative_url }}" alt="{{ cover.journal }} cover, {{ cover.issue }}" loading="lazy">
+            <span class="astro-cover-journal">{{ cover.journal }}</span>
+            <span class="astro-cover-issue">{{ cover.issue }}</span>
+            <span class="astro-cover-title">{{ cover.title }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+
     {% if page.selected_papers %}
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
@@ -100,6 +114,15 @@ layout: default
   .astro-home .news td, .astro-home .news th { padding-top: 0.45rem; padding-bottom: 0.45rem; background: transparent; }
   html[data-theme="dark"] .astro-home .news { background: rgba(255, 255, 255, 0.06); border-left-color: #8c96a6; }
   html[data-theme="dark"] .astro-home .news th[scope="row"] { color: #c9cfd8; }
+  .astro-covers { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 250px)); gap: 1.5rem; margin-bottom: 1rem; }
+  .astro-cover { display: flex; flex-direction: column; color: inherit; text-decoration: none; }
+  .astro-cover:hover { color: inherit; text-decoration: none; }
+  .astro-cover img { width: 100%; aspect-ratio: 11666 / 16384; object-fit: cover; border-radius: 0.3rem; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18); transition: transform 0.2s, box-shadow 0.2s; }
+  .astro-cover:hover img { transform: translateY(-4px); box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25); }
+  .astro-cover-journal { margin-top: 0.75rem; font-weight: 700; font-style: italic; }
+  .astro-cover-issue { font-size: 0.85rem; color: var(--global-text-color-light); }
+  .astro-cover-title { font-size: 0.85rem; margin-top: 0.25rem; line-height: 1.35; }
+  @media (max-width: 575.98px) { .astro-covers { grid-template-columns: 1fr 1fr; gap: 1rem; } }
   .astro-contact { margin-bottom: 2rem; }
   .astro-contact p { margin-bottom: 0.75rem; }
   .astro-contact .contact-icons { font-size: 1.6rem; }
