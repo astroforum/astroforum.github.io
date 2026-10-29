@@ -14,6 +14,6 @@ profiles:
     content: about_pi.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>kyoon@hanbat.ac.kr<br>전화: 042-821-1252<br>연구실: N8동 510호<br>실험실: N8동 415호</p>
+      <p>kyoon@hanbat.ac.kr<br>전화: 042-821-1252<br>연구실: N8동 510호<br>실험실: N8동 415호</p><p><a class="astro-cv-btn" href="https://claude.ai/artifact/8RHWTyPZWVChdzBEHhP8DT" target="_blank" rel="noopener">CV 보기 ↗</a></p>
 
 ---
