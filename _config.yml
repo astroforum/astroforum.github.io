@@ -9,15 +9,15 @@ last_name: Lab
 contact_note: >
   [연락 방법 안내 — 예: 대학원 진학 문의는 이메일로 연락 주세요.]
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  [연구실 한두 줄 소개]
+  Alloy Design for STructural RObustness
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: materials science, materials engineering, research lab
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
+icon: logo/favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+apple_touch_icon: logo/apple-touch-icon.png # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://astroforum.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
