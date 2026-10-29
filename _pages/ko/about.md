@@ -14,7 +14,7 @@ social: true # includes social icons in the contact section
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 3 # latest blog posts shown as news on the home page
 ---
 
 구조재료는 제트엔진, 핵융합·핵분열 원자로, 수소 인프라처럼 가장 가혹한 곳에서 하중을 견딥니다. 재료가 버티지 못하면 시스템 전체가 멈춥니다. ASTRO Lab(구조소재용 합금설계 연구실, **A**lloy design for **ST**ructural **RO**bustness)은 이런 환경에서도 강하고, 질기고, 믿을 수 있는 금속 합금을 설계합니다.

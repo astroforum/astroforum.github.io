@@ -45,9 +45,19 @@ layout: default
 
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">news</a>
       </h2>
-      {% include news.liquid limit=true %}
+      {% comment %} News = the latest blog posts (newest first); each links to its post. {% endcomment %}
+      <div class="news">
+        <table class="table table-sm table-borderless">
+          {% for post in site.posts limit: page.announcements.limit %}
+            <tr>
+              <th scope="row">{{ post.date | date: '%b %d, %Y' }}</th>
+              <td><a class="news-title" href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+            </tr>
+          {% endfor %}
+        </table>
+      </div>
     {% endif %}
 
     {% if page.selected_papers %}
@@ -149,6 +159,8 @@ layout: default
   .astro-home .news td, .astro-home .news th { padding-top: 0.45rem; padding-bottom: 0.45rem; background: transparent; }
   html[data-theme="dark"] .astro-home .news { background: rgba(255, 255, 255, 0.06); border-left-color: #8c96a6; }
   html[data-theme="dark"] .astro-home .news th[scope="row"] { color: #c9cfd8; }
+  .astro-home .news a.news-title { color: var(--global-text-color); }
+  .astro-home .news a.news-title:hover { color: var(--global-theme-color); }
   .astro-home .astro-preview { display: none; }
   .astro-home a.bibtex, .astro-home .bibtex.hidden { display: none !important; }
   .astro-covers { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 250px)); gap: 1.5rem; margin-bottom: 1rem; }

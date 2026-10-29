@@ -14,7 +14,7 @@ social: true # includes social icons in the contact section
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 3 # latest blog posts shown as news on the home page
 ---
 
 Structural materials carry the load in the harshest places we build: jet engines, fusion and fission reactors, hydrogen infrastructure. When the material fails, the whole system fails. ASTRO Lab (**A**lloy design for **ST**ructural **RO**bustness) designs metallic alloys that stay strong, tough and reliable under such conditions.
