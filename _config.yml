@@ -2,18 +2,16 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Astro Lab
-first_name: Astro
+title: ASTRO Lab
+first_name: ASTRO
 middle_name:
 last_name: Lab
-contact_note: >
-  [연락 방법 안내 — 예: 대학원 진학 문의는 이메일로 연락 주세요.]
+contact_note: ""
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Alloy Design for STructural RObustness
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: materials science, materials engineering, research lab
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 
