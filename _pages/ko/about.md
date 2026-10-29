@@ -12,7 +12,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons in the contact section
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # latest-blog-posts box on the home page (user turned it off 2026-10-30)
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 3 # latest blog posts shown as news on the home page
 ---
