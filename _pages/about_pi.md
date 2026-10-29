@@ -1,4 +1,4 @@
-### Kook Noh Yoon <span class="astro-pi">PI</span>
+### Kook Noh Yoon
 
 Assistant Professor, Department of Materials Science and Engineering, Hanbat National University
 
