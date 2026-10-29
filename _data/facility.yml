@@ -3,18 +3,19 @@
 #   - name: Vacuum Arc Melter
 #     maker: Samhan Vacuum
 #     image: facility/arc.jpg   # optional, file in assets/img/facility/
+#     coming: true              # optional, shows a "coming soon" badge
 - category: Sample Preparation
   category_ko: 시편 제작
   items:
     - name: Auto Grinder/Polisher (twin-wheel)
       maker: TOPTECH
       image: blog/2026-06-polisher.jpg
-- category: Microstructure Analysis
-  category_ko: 미세조직 분석
+- category: Processing
+  category_ko: 공정
   items: []
 - category: Mechanical Testing
   category_ko: 기계적 특성 평가
-  items: []
-- category: Software
-  category_ko: 소프트웨어
-  items: []
+  items:
+    - name: Universal Testing Machine (500 kN)
+      maker: SALT, ST-1002
+      coming: true
