@@ -6,25 +6,15 @@
 {% capture me_bold %}<strong>{{ me }}</strong>{% endcapture %}
 
 <h2 id="technology-transfer">{% if ko %}기술이전{% else %}Technology Transfer{% endif %}</h2>
-<table class="table table-sm">
-  <thead>
-    <tr>
-      {% if ko %}<th>연도</th><th>특허</th><th>국가</th><th>특허번호</th><th>기술료</th>
-      {% else %}<th>Year</th><th>Patent</th><th>Country</th><th>Patent No.</th><th>Royalty</th>{% endif %}
-    </tr>
-  </thead>
-  <tbody>
-    {% for t in site.data.patents.transfers %}
-      <tr>
-        <td>{{ t.year }}</td>
-        <td>{% if ko and t.title_ko %}{{ t.title_ko }}{% else %}{{ t.title }}{% endif %}</td>
-        <td>{{ t.country }}</td>
-        <td>{{ t.number }}</td>
-        <td>{{ t.royalty }}</td>
-      </tr>
-    {% endfor %}
-  </tbody>
-</table>
+<ol class="astro-patents">
+  {% for t in site.data.patents.transfers %}
+    <li>
+      <span class="astro-patent-title">{% if ko and t.title_ko %}{{ t.title_ko }}{% else %}{{ t.title }}{% endif %}</span>
+      <span class="badge astro-status astro-registered">{{ t.country }} · {{ t.year }}</span><br>
+      <span class="astro-patent-meta">{% if ko %}특허번호{% else %}Patent No.{% endif %} {{ t.number }} · {% if ko %}기술료{% else %}Royalty{% endif %} {{ t.royalty }}</span>
+    </li>
+  {% endfor %}
+</ol>
 
 <h2 id="international-patents">{% if ko %}국제특허{% else %}International Patents{% endif %} ({{ site.data.patents.international.size }})</h2>
 <ol class="astro-patents">

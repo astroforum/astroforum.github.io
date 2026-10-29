@@ -18,6 +18,13 @@
         .astro-flag { display: inline-flex; line-height: 0; opacity: 0.4; transition: opacity 0.15s; }
         .astro-flag:hover, .astro-flag.active { opacity: 1; }
         .astro-flag img { width: 20px; height: 15px; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15); }
+        /* Phone layout */
+        @media (max-width: 575.98px) {
+          .navbar-collapse-main.show, .navbar-collapse-main.collapsing { background: var(--global-bg-color); padding-bottom: 0.5rem; }
+          .astro-lang { padding: 0.5rem 0; }
+          .profile { width: 65% !important; float: none !important; margin: 0 auto 1.5rem !important; }
+          .profile .more-info { font-size: 0.8rem; }
+        }
       </style>
       <!-- Navbar Toggle -->
       <button
