@@ -3,7 +3,7 @@ lang: en
 layout: page
 permalink: /facility/
 title: facility
-description: equipment and software in Astro Lab
+description: equipment in ASTRO Lab
 nav: true
 nav_order: 5
 ---
