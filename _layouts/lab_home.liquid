@@ -26,7 +26,7 @@ layout: default
   <article>
     <div class="astro-intro">{{ content }}</div>
 
-    <h2>our approach</h2>
+    <h2>our approach <span class="astro-h2-sub">fundamentals to applications</span></h2>
     <div class="astro-steps">
       {% for step in site.data.approach %}
         <div class="astro-step">
@@ -92,7 +92,7 @@ layout: default
   .astro-hero p.astro-hero-sub { color: var(--global-text-color-light); margin: 1rem 0 0; font-size: 1rem; }
   .astro-intro { margin-bottom: 1.5rem; }
   .astro-intro p { font-size: 1.05rem; line-height: 1.7; }
-  .astro-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 0.75rem; }
+  .astro-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 0.75rem; }
   .astro-step {
     position: relative;
     border: 1px solid var(--global-divider-color);
@@ -109,7 +109,9 @@ layout: default
   .astro-step h3 { font-size: 1.15rem; font-weight: 700; margin: 0 0 0.35rem; }
   .astro-step p { font-size: 0.9rem; margin: 0; color: var(--global-text-color-light); }
   .astro-more { text-align: right; font-weight: 600; margin-bottom: 1rem; }
-  @media (max-width: 575.98px) { .astro-steps { grid-template-columns: 1fr; } }
+  .astro-h2-sub { font-size: 1rem; font-weight: 400; color: var(--global-text-color-light); margin-left: 0.5rem; }
+  @media (max-width: 767.98px) { .astro-steps { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 575.98px) { .astro-steps { grid-template-columns: 1fr; } .astro-h2-sub { display: block; margin: 0.25rem 0 0; } }
   .astro-cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
