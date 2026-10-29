@@ -14,8 +14,6 @@ profiles:
     content: about_pi.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>[email@university.ac.kr]</p>
-      <p>Office: Room 510, Bldg. N8</p>
-      <p>Lab: Room 415, Bldg. N8</p>
+      <p>[email@university.ac.kr]<br>Office: Room 510, Bldg. N8<br>Lab: Room 415, Bldg. N8</p>
 
 ---
