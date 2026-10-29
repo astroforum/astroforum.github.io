@@ -1,0 +1,17 @@
+# Lab equipment shown on the facility page.
+# To add an item, put it under the right category, e.g.
+#   - name: Vacuum Arc Melter
+#     maker: Samhan Vacuum
+#     image: facility/arc.jpg   # optional, file in assets/img/facility/
+- category: Sample Preparation
+  category_ko: 시편 제작
+  items: []
+- category: Microstructure Analysis
+  category_ko: 미세조직 분석
+  items: []
+- category: Mechanical Testing
+  category_ko: 기계적 특성 평가
+  items: []
+- category: Software
+  category_ko: 소프트웨어
+  items: []

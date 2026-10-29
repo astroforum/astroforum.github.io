@@ -4,7 +4,7 @@ layout: default
 permalink: /blog/
 title: 블로그
 nav: true
-nav_order: 5
+nav_order: 6
 pagination:
   enabled: true
   collection: posts

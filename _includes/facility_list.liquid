@@ -1,0 +1,31 @@
+{% assign ko = false %}
+{% if site.active_lang == 'ko' %}{% assign ko = true %}{% endif %}
+{% for group in site.data.facility %}
+  <h2>{% if ko %}{{ group.category_ko }}{% else %}{{ group.category }}{% endif %}</h2>
+  {% if group.items.size > 0 %}
+    <div class="astro-equip">
+      {% for item in group.items %}
+        <div class="astro-equip-item">
+          {% if item.image %}
+            <img src="{{ item.image | prepend: '/assets/img/' | relative_url }}" alt="{{ item.name }}" loading="lazy">
+          {% else %}
+            <div class="astro-equip-noimg"></div>
+          {% endif %}
+          <p class="astro-equip-name">{{ item.name }}</p>
+          {% if item.maker %}<p class="astro-equip-maker">{{ item.maker }}</p>{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="astro-equip-empty">{% if ko %}준비 중입니다.{% else %}Coming soon.{% endif %}</p>
+  {% endif %}
+{% endfor %}
+
+<style>
+  .astro-equip { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.25rem; margin-bottom: 2rem; }
+  .astro-equip-item img, .astro-equip-noimg { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 0.4rem; border: 1px solid var(--global-divider-color); }
+  .astro-equip-noimg { background: var(--global-divider-color); }
+  .astro-equip-name { font-weight: 600; margin: 0.5rem 0 0; font-size: 0.95rem; }
+  .astro-equip-maker { margin: 0; font-size: 0.85rem; color: var(--global-text-color-light); }
+  .astro-equip-empty { color: var(--global-text-color-light); margin-bottom: 2rem; }
+</style>
