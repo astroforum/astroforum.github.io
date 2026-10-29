@@ -1,0 +1,66 @@
+{% comment %}
+  Patents page body. Data: _data/patents.yml. Used by _pages/patents.md and _pages/ko/patents.md.
+{% endcomment %}
+{% assign ko = false %}{% if site.active_lang == 'ko' %}{% assign ko = true %}{% endif %}
+{% assign me = 'K.N. Yoon' %}
+{% capture me_bold %}<strong>{{ me }}</strong>{% endcapture %}
+
+<h2 id="technology-transfer">{% if ko %}기술이전{% else %}Technology Transfer{% endif %}</h2>
+<table class="table table-sm">
+  <thead>
+    <tr>
+      {% if ko %}<th>연도</th><th>특허</th><th>국가</th><th>특허번호</th><th>기술료</th>
+      {% else %}<th>Year</th><th>Patent</th><th>Country</th><th>Patent No.</th><th>Royalty</th>{% endif %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for t in site.data.patents.transfers %}
+      <tr>
+        <td>{{ t.year }}</td>
+        <td>{% if ko and t.title_ko %}{{ t.title_ko }}{% else %}{{ t.title }}{% endif %}</td>
+        <td>{{ t.country }}</td>
+        <td>{{ t.number }}</td>
+        <td>{{ t.royalty }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2 id="international-patents">{% if ko %}국제특허{% else %}International Patents{% endif %} ({{ site.data.patents.international.size }})</h2>
+<ol class="astro-patents">
+  {% for p in site.data.patents.international %}
+    <li>
+      <span class="astro-patent-title">{{ p.title }}</span>
+      <span class="badge astro-status astro-{{ p.status | downcase }}">{{ p.country }} · {% if ko %}{% case p.status %}{% when 'Registered' %}등록{% when 'Allowed' %}특허결정{% else %}출원{% endcase %}{% else %}{{ p.status }}{% endif %}</span><br>
+      <span class="astro-patent-meta">{{ p.inventors | replace: me, me_bold }}</span><br>
+      <span class="astro-patent-meta">
+        {% if p.reg_no %}{% if ko %}등록{% else %}Reg.{% endif %} {{ p.reg_no }} ({{ p.reg_date }}) · {% endif %}
+        {% if ko %}출원{% else %}Appl.{% endif %} {{ p.app_no }} ({{ p.app_date }})
+      </span>
+    </li>
+  {% endfor %}
+</ol>
+
+<h2 id="domestic-patents">{% if ko %}국내특허{% else %}Domestic Patents (Korea){% endif %} ({{ site.data.patents.domestic.size }})</h2>
+<ol class="astro-patents">
+  {% for p in site.data.patents.domestic %}
+    <li>
+      <span class="astro-patent-title">{% if ko %}{{ p.title_ko }}{% else %}{{ p.title }}{% endif %}</span>
+      <span class="badge astro-status astro-registered">KR · {% if ko %}등록{% else %}Registered{% endif %}</span><br>
+      <span class="astro-patent-meta">{{ p.inventors | replace: me, me_bold }}</span><br>
+      <span class="astro-patent-meta">
+        {% if ko %}등록{% else %}Reg.{% endif %} {{ p.reg_no }} ({{ p.reg_date }}) · {% if ko %}출원{% else %}Appl.{% endif %} {{ p.app_no }} ({{ p.app_date }})
+      </span>
+    </li>
+  {% endfor %}
+</ol>
+
+<style>
+  .astro-patents li { margin-bottom: 0.9rem; }
+  .astro-patent-title { font-weight: 500; }
+  .astro-patent-meta { font-size: 0.9rem; color: var(--global-text-color-light, #6c757d); }
+  .astro-status { font-weight: 500; font-size: 0.75rem; margin-left: 0.3rem; color: #fff; }
+  .astro-registered { background: #1f2a44; }
+  .astro-allowed { background: #8c96a6; }
+  .astro-applied { background: #c9cfd8; color: #1f2a44; }
+</style>

@@ -1,0 +1,334 @@
+# Patents shown on /patents/ and /ko/patents/.
+# Source: CV Google Sheet (cv_data_updated20261029), tabs 국제특허 / 국내특허.
+# Add new items at the top of each list. Dates are YYYY.MM.DD.
+# status: Registered / Allowed / Applied
+
+transfers:
+  - year: 2023
+    title: Complex copper alloy including high-entropy alloy and method of manufacturing same
+    title_ko: 하이엔트로피 합금을 포함하는 복합 구리 합금 및 그 제조 방법
+    country: EP
+    number: 19876627.1 (application)
+    royalty: ₩ 280,000,000
+  - year: 2022
+    title: Complex copper alloy including high-entropy alloy and method of manufacturing same
+    title_ko: 하이엔트로피 합금을 포함하는 복합 구리 합금 및 그 제조 방법
+    country: US
+    number: 11,807,927 B2
+    royalty: ₩ 300,000,000
+  - year: 2021
+    title: Complex copper alloy comprising high entropy alloy and method for manufacturing the same
+    title_ko: 하이엔트로피 합금을 포함하는 복합 구리 합금 및 그 제조 방법
+    country: KR
+    number: 10-2273787
+    royalty: ₩ 95,000,000
+
+international:
+  - title: Resettable gears and manufacturing method therefor
+    inventors: E.S. Park, G.H. Yoo, K.N. Yoon, J.Y. Kim, W.H. Ryu
+    country: US
+    status: Registered
+    app_no: 17/486,998
+    app_date: 2021.09.28
+    reg_no: 11,873,548 B2
+    reg_date: 2024.01.16
+  - title: Self-healing Co based alloys and manufacturing method for the same
+    inventors: E.S. Park, K.N. Yoon, J.S. Lee, G.H. Yoo, J.Y. Kim
+    country: JP
+    status: Registered
+    app_no: 特願 2022-142834
+    app_date: 2020.08.19
+    reg_no: "7495149"
+    reg_date: 2024.05.27
+  - title: Complex copper alloy including high-entropy alloy and method of manufacturing same
+    inventors: E.S. Park, K.N. Yoon, J.Y. Kim, J.W. Yeh
+    country: US
+    status: Registered
+    app_no: 17/286,942
+    app_date: 2021.04.20
+    reg_no: 11,807,927 B2
+    reg_date: 2023.11.07
+  - title: BCC dual phase refractory superalloy with high phase stability and manufacturing method therefore
+    inventors: E.S. Park, S.J. Kim, J.Y. Kim, H.S. Oh, K.N. Yoon
+    country: US
+    status: Registered
+    app_no: 17/965,103 (divisional of 16/996,787)
+    app_date: 2022.10.13
+    reg_no: 11,732,335 B2
+    reg_date: 2023.08.22
+  - title: Self-healing Co based alloys and manufacturing method for the same
+    inventors: E.S. Park, K.N. Yoon, J.S. Lee, G.H. Yoo, J.Y. Kim
+    country: CN
+    status: Registered
+    app_no: ZL 2020 1 0833572.3
+    app_date: 2020.08.18
+    reg_no: CN 113897517 B
+    reg_date: 2023.03.28
+  - title: BCC dual phase refractory superalloy with high phase stability and manufacturing method therefore
+    inventors: E.S. Park, S.J. Kim, J.Y. Kim, H.S. Oh, K.N. Yoon
+    country: US
+    status: Registered
+    app_no: 16/996,787
+    app_date: 2020.08.18
+    reg_no: 11,512,371 B2
+    reg_date: 2022.11.29
+  - title: Resettable alloys and manufacturing method for the same
+    inventors: E.S. Park, K.N. Yoon, M.S. Kim, S.J. Kim, J.W. Yeh
+    country: US
+    status: Registered
+    app_no: 16/996,773
+    app_date: 2020.08.18
+    reg_no: 11,447,843 B2
+    reg_date: 2022.09.20
+  - title: Bi-continuous composite of refractory alloy and copper and method for manufacturing the same
+    inventors: K.N. Yoon, I.H. Kim, H.S. Oh, S.J. Kim, E.S. Park
+    country: US
+    status: Registered
+    app_no: 15/893,862
+    app_date: 2018.02.12
+    reg_no: 11,104,976 B2
+    reg_date: 2021.08.31
+  - title: High-entropy alloy foam and manufacturing method for the foam
+    inventors: E.S. Park, K.N. Yoon, K. Yaqoob, J.I. Lee, J.Y. Kim
+    country: US
+    status: Registered
+    app_no: 16/743,031 (divisional of 15/414,778)
+    app_date: 2020.01.15
+    reg_no: 10,941,463 B2
+    reg_date: 2021.03.09
+  - title: Water-leachable alloy-melt-swapping process and porous metal manufactured using the same
+    inventors: E.S. Park, K.N. Yoon, J.I. Lee, W.H. Ryu, G.H. Yoo
+    country: US
+    status: Registered
+    app_no: 15/685,012
+    app_date: 2017.08.24
+    reg_no: 10,538,826 B2
+    reg_date: 2020.01.21
+  - title: High entropy alloy having TWIP/TRIP property and manufacturing method for the same
+    inventors: E.S. Park, H.S. Oh, S.J. Kim, K.N. Yoon, C.W. Ryu
+    country: US
+    status: Registered
+    app_no: 15/428,259
+    app_date: 2017.02.09
+    reg_no: 10,364,487 B2
+    reg_date: 2019.07.30
+  - title: Self-healing Co based alloys and manufacturing method for the same
+    inventors: E.S. Park, K.N. Yoon, J.S. Lee, G.H. Yoo, J.Y. Kim
+    country: US
+    status: Allowed
+    app_no: 17/070,051
+    app_date: 2020.10.14
+  - title: Complex concentrated soft magnetic amorphous alloys with multi-complex quenched-in nuclei and manufacturing method thereof
+    inventors: W.H. Ryu, K.N. Yoon, K.J. Kim, W. Kim, E.S. Park
+    country: US
+    status: Applied
+    app_no: 18/413,467
+    app_date: 2024.01.16
+  - title: Resettable metallic glass and manufacturing method therefor
+    inventors: E.S. Park, G.H. Yoo, K.N. Yoon, J.Y. Kim, W.H. Ryu
+    country: US
+    status: Applied
+    app_no: 17/486,987
+    app_date: 2021.09.28
+  - title: Self-healing Co based alloys and manufacturing method for the same
+    inventors: E.S. Park, K.N. Yoon, J.S. Lee, G.H. Yoo, J.Y. Kim
+    country: EP
+    status: Applied
+    app_no: 20200982.5
+    app_date: 2020.10.09
+  - title: Complex copper alloy including high-entropy alloy and method of manufacturing same
+    inventors: E.S. Park, K.N. Yoon, J.Y. Kim, J.W. Yeh
+    country: EP
+    status: Applied
+    app_no: 19876627.1
+    app_date: 2019.10.22
+  - title: Complex copper alloy including high-entropy alloy and method of manufacturing same
+    inventors: E.S. Park, K.N. Yoon, J.Y. Kim, J.W. Yeh
+    country: PCT
+    status: Applied
+    app_no: PCT/KR2019/013869
+    app_date: 2019.10.22
+
+domestic:
+  - title: Complex concentrated soft magnetic amorphous alloys with multi-complex quenched-in nuclei and manufacturing method thereof
+    title_ko: 복잡 급랭핵을 가진 컴플렉스 고농도 연자성 비정질 합금 및 이의 제조 방법
+    inventors: W.H. Ryu, K.N. Yoon, E.S. Park, K.J. Kim, W. Kim
+    app_no: 10-2023-0007031
+    app_date: 2023.01.17
+    reg_no: 10-2873186
+    reg_date: 2025.10.15
+  - title: Design method for multi-property targeted complex concentrated alloys with high strength and high ductility and alloys fabricated by the method
+    title_ko: 고강도 고연신 복합 특성 최적화 복잡 과고용 합금 설계 방법 및 그에 따라 제조된 합금
+    inventors: E.S. Park, S.J. Nam, H.J. Choi, K.N. Yoon
+    app_no: 10-2022-0049214
+    app_date: 2022.04.20
+    reg_no: 10-2729900
+    reg_date: 2024.11.09
+  - title: Complex concentrated silicide with hexagonal structure, and manufacturing method for the same
+    title_ko: 육방구조를 가지는 복잡 과고용 실리사이드 및 그 제조 방법
+    inventors: K.N. Yoon, E.S. Park, S. Kadam, J.K. Kim
+    app_no: 10-2023-0015659
+    app_date: 2023.02.06
+    reg_no: 10-2715356
+    reg_date: 2024.10.04
+  - title: Nano-precipitation hardenable BCC martensite complex concentrated alloys and manufacturing method thereof
+    title_ko: 나노 석출 강화형 BCC 마르텐사이트 복잡 조성 합금 및 제조 방법
+    inventors: M.S. Kim, K.N. Yoon, E.S. Park, J.W. Yeh
+    app_no: 10-2022-0037688
+    app_date: 2022.03.25
+    reg_no: 10-2715354
+    reg_date: 2024.10.04
+  - title: Self-healing Co based alloys and manufacturing method for the same
+    title_ko: 자가 치유 특성을 가지는 코발트계 합금 및 그 제조 방법
+    inventors: K.N. Yoon, J.S. Lee, G.H. Yoo, E.S. Park
+    app_no: 10-2023-0043004
+    app_date: 2023.03.31
+    reg_no: 10-2680539
+    reg_date: 2024.06.27
+  - title: Resettable gears
+    title_ko: 특성 복귀능을 가지는 기어
+    inventors: G.H. Yoo, K.N. Yoon, J.Y. Kim, W.H. Ryu, E.S. Park
+    app_no: 10-2020-0125871
+    app_date: 2020.09.28
+    reg_no: 10-2569110
+    reg_date: 2023.08.17
+  - title: Tantalum alloy with high strength and high formability and manufacturing method thereof
+    title_ko: 고강도 고성형성 탄탈륨 합금 및 그 제조방법
+    inventors: H. Kwon, K.N. Yoon, I.H. Kim, E.S. Park
+    app_no: 10-2020-0122620
+    app_date: 2020.09.22
+    reg_no: 10-2532068
+    reg_date: 2023.05.09
+  - title: Resettable metallic glasses and the manufacturing method thereof
+    title_ko: 특성 복귀능을 가지는 비정질 합금 및 그 제조 방법
+    inventors: G.H. Yoo, K.N. Yoon, J.Y. Kim, W.H. Ryu, E.S. Park
+    app_no: 10-2020-0125494
+    app_date: 2020.09.28
+    reg_no: 10-2531083
+    reg_date: 2023.05.04
+  - title: BCC dual phase refractory superalloy with high phase stability and manufacturing method therefore
+    title_ko: BCC 2상 복합구조 안정성이 우수한 내열 초합금 및 그 제조 방법
+    inventors: E.S. Park, S.J. Kim, J.Y. Kim, H.S. Oh, K.N. Yoon
+    app_no: 10-2021-0032316
+    app_date: 2021.03.11
+    reg_no: 10-2467112
+    reg_date: 2022.11.16
+  - title: High entropy alloy with heterogenous complex microstructure and the manufacturing method thereof
+    title_ko: 불균일 복합 미세구조 하이엔트로피 합금 및 그 제조 방법
+    inventors: J. Zhang, K.N. Yoon, M.S. Kim, H.S. Ahn, J.Y. Kim, E.S. Park
+    app_no: 10-2020-0102729
+    app_date: 2020.08.14
+    reg_no: 10-2446488
+    reg_date: 2022.09.20
+  - title: Resettable alloys and manufacturing method for the same
+    title_ko: 특성 복귀 합금 및 그 제조 방법
+    inventors: M.S. Kim, K.N. Yoon, S.J. Kim, J.W. Yeh, E.S. Park
+    app_no: 10-2020-0155056
+    app_date: 2020.11.19
+    reg_no: 10-2405855
+    reg_date: 2022.05.31
+  - title: High entropy Ni-Fe-Cr-based alloy
+    title_ko: 하이 엔트로피 Ni-Fe-Cr계 합금
+    inventors: H.S. Ahn, K.N. Yoon, H.S. Oh, J.H. Lee, E.S. Park
+    app_no: 10-2019-0137596
+    app_date: 2019.10.31
+    reg_no: 10-2319375
+    reg_date: 2021.10.25
+  - title: Complex concentrated alloy welded joint and complex concentrated alloy flux cored arc welding wire
+    title_ko: 컴플렉스 고용 합금 용접이음부 및 컴플렉스 고용 합금 플럭스 코어드 아크 용접 와이어
+    inventors: H.S. Ahn, K.N. Yoon, M.S. Kim, J.H. Lee, E.S. Park
+    app_no: 10-2019-0137597
+    app_date: 2019.10.31
+    reg_no: 10-2283351
+    reg_date: 2021.07.23
+  - title: Complex copper alloy comprising high entropy alloy and method for manufacturing the same
+    title_ko: 하이엔트로피 합금을 포함하는 복합 구리 합금 및 그 제조 방법
+    inventors: K.N. Yoon, J.W. Yeh, J.Y. Kim, E.S. Park
+    app_no: 10-2019-0131356
+    app_date: 2019.10.22
+    reg_no: 10-2273787
+    reg_date: 2021.06.30
+  - title: Brass fabricated with stainless steel scrap for water suppliant and manufacturing method for the same
+    title_ko: 스테인레스강 스크랩을 재활용해 제조한 음용수용 황동 합금 및 그 제조 방법
+    inventors: K.N. Yoon, J.W. Yeh, S.Y. Lee, E.S. Park
+    app_no: 10-2021-0036997
+    app_date: 2021.03.23
+    reg_no: 10-2245881
+    reg_date: 2021.04.23
+  - title: Predicting method for solid-solution strength of complex concentrated alloy, designing method for complex concentrated alloy and V based complex concentrated alloy
+    title_ko: CCA의 고용 강화 예측 방법과 이를 이용한 고용 강화가 제어된 CCA의 설계 방법 및 이를 통해 도출된 V계 합금
+    inventors: H.S. Oh, S.J. Kim, K.N. Yoon, W.H. Ryu, E.S. Park
+    app_no: 10-2019-0012913
+    app_date: 2019.01.31
+    reg_no: 10-2225980
+    reg_date: 2021.03.04
+  - title: Self-healable TRIP superalloys and manufacturing method for the same
+    title_ko: 자가 치유 특성을 가지는 변태 유기 소성 초합금 및 그 제조 방법
+    inventors: K.N. Yoon, J.S. Lee, H.S. Oh, S.J. Kim, E.S. Park
+    app_no: 10-2018-0030816
+    app_date: 2018.03.16
+    reg_no: 10-2136455
+    reg_date: 2020.07.15
+  - title: CrCoNi alloy with multi-deformation mechanism sensing temperature and stress and manufacturing method thereof
+    title_ko: 온도-응력 감응 다중변형기구를 가진 CrCoNi 합금 및 그 제조방법
+    inventors: K.N. Yoon, H.S. Oh, J.W. Kim, E.S. Park
+    app_no: 10-2017-0040213
+    app_date: 2017.03.29
+    reg_no: 10-1963020
+    reg_date: 2019.03.21
+  - title: Bi-continuous composite of biodegradable and biocompatible alloys and biocompatible porous alloy prepared by the composite
+    title_ko: 생분해성 합금과 생체적합성 합금의 이중연속구조 복합재 및 이를 통해 제조된 생체적합 다공성 합금
+    inventors: K.N. Yoon, E.S. Park
+    app_no: 10-2017-0082488
+    app_date: 2017.06.29
+    reg_no: 10-1943205
+    reg_date: 2019.01.22
+  - title: Bi-continuous composite of refractory alloy and copper and manufacturing method for the same
+    title_ko: 내화 금속계 합금과 구리의 이중연속구조 복합재 및 그 제조방법
+    inventors: K.N. Yoon, I.H. Kim, E.S. Park
+    app_no: 10-2017-0098450
+    app_date: 2017.08.03
+    reg_no: 10-1938488
+    reg_date: 2019.01.08
+  - title: Stress sensing deformation mechanism tunable alloy and manufacturing method thereof
+    title_ko: 응력 감응 다단변형기구 발현가능 합금 및 그 제조방법
+    inventors: K.N. Yoon, H.S. Oh, J.I. Lee, E.S. Park
+    app_no: 10-2017-0033081
+    app_date: 2017.03.16
+    reg_no: 10-1913029
+    reg_date: 2018.10.23
+  - title: Low thermal expansion and high thermal conductivity composite, and the manufacturing method thereof
+    title_ko: 저열팽창 고열전도 복합재 및 이의 제조방법
+    inventors: K.N. Yoon, J.I. Lee, E.S. Park
+    app_no: 10-2016-0169210
+    app_date: 2016.12.13
+    reg_no: 10-1887207
+    reg_date: 2018.08.03
+  - title: Water-leachable alloy melt swapping process and the porous metals fabricated by this method
+    title_ko: 수용해성 합금 용탕 치환 공정 및 이를 통해 제조된 다공성 금속
+    inventors: K.N. Yoon, J.I. Lee, E.S. Park
+    app_no: 10-2016-0108908
+    app_date: 2016.08.26
+    reg_no: 10-1855587
+    reg_date: 2018.04.30
+  - title: BCC HEA-LEA complex foam with open pores made by spinodal decomposition and manufacturing method for the foam
+    title_ko: 스피노달 분해 기공 구조를 가진 BCC HEA-LEA 복합 구조 다공체 및 이의 제조 방법
+    inventors: K.N. Yoon, K. Yaqoob, E.S. Park
+    app_no: 10-2016-0082513
+    app_date: 2016.06.30
+    reg_no: 10-1779715
+    reg_date: 2017.09.12
+  - title: Body centered cubic high-entropy alloy foam and manufacturing method for the foam
+    title_ko: 체심입방 결정구조 하이엔트로피 합금 폼 및 이의 제조 방법
+    inventors: K.N. Yoon, K. Yaqoob, E.S. Park
+    app_no: 10-2016-0066416
+    app_date: 2016.05.30
+    reg_no: 10-1773298
+    reg_date: 2017.08.24
+  - title: High-entropy alloy foam and manufacturing method for the foam
+    title_ko: 하이엔트로피 합금 폼 및 이의 제조방법
+    inventors: K.N. Yoon, J.I. Lee, E.S. Park
+    app_no: 10-2016-0011313
+    app_date: 2016.01.29
+    reg_no: 10-1684856
+    reg_date: 2016.12.05
