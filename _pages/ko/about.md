@@ -10,7 +10,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>교수 연구실: N8동 510호<br>실험실: N8동 415호<br>국립한밭대학교<br>대전광역시 유성구 동서대로 125 (34158)</p>
+    <p>사무실: N8동 510호<br>실험실: N8동 415호<br>국립한밭대학교<br>대전광역시 유성구 동서대로 125 (34158)</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
