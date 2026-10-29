@@ -3,16 +3,17 @@ lang: en
 layout: about
 title: about
 permalink: /
-subtitle: "[학교, 학과]. [건물, 호실]."
+subtitle: "[Department], Hanbat National University"
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>[건물, 호실]</p>
-    <p>[학교, 학과]</p>
-    <p>[주소]</p>
+    <p>Office: Room 510, Bldg. N8</p>
+    <p>Lab: Room 415, Bldg. N8</p>
+    <p>Hanbat National University</p>
+    <p>125 Dongseo-daero, Yuseong-gu, Daejeon 34158, Korea</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

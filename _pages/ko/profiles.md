@@ -15,6 +15,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>[email@university.ac.kr]</p>
-      <p>[건물, 호실]</p>
+      <p>교수 연구실: N8동 510호</p>
+      <p>실험실: N8동 415호</p>
 
 ---

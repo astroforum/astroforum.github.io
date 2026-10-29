@@ -14,8 +14,10 @@
         .astro-mark-dark { display: none; }
         html[data-theme="dark"] .astro-mark-light { display: none; }
         html[data-theme="dark"] .astro-mark-dark { display: inline; }
-        .astro-lang { display: flex; align-items: center; white-space: nowrap; }
-        .astro-lang .nav-link { padding-left: 0.25rem; padding-right: 0.25rem; }
+        .astro-lang { display: flex; align-items: center; align-self: center; gap: 0.4rem; padding: 0 0.5rem; }
+        .astro-flag { display: inline-flex; line-height: 0; opacity: 0.4; transition: opacity 0.15s; }
+        .astro-flag:hover, .astro-flag.active { opacity: 1; }
+        .astro-flag img { width: 20px; height: 15px; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15); }
       </style>
       <!-- Navbar Toggle -->
       <button
@@ -118,14 +120,17 @@
             </li>
           {% endif %}
           {% if site.languages.size > 1 %}
-            <!-- Language switch (jekyll-polyglot) -->
+            <!-- Language switch (jekyll-polyglot): flag icons from flag-icons (MIT) -->
             <li class="nav-item astro-lang">
               {% for tongue in site.languages %}
+                {% if tongue == 'ko' %}{% assign flag = 'kr' %}{% assign lang_name = '한국어' %}{% else %}{% assign flag = 'gb' %}{% assign lang_name = 'English' %}{% endif %}
                 <a
-                  class="nav-link d-inline px-1 {% if tongue == site.active_lang %}font-weight-bold{% endif %}"
+                  class="astro-flag {% if tongue == site.active_lang %}active{% endif %}"
                   {% static_href %}href="{% if tongue == site.default_lang %}{{ site.baseurl }}{{ page.url }}{% else %}{{ site.baseurl }}/{{ tongue }}{{ page.url }}{% endif %}"{% endstatic_href %}
                   lang="{{ tongue }}"
-                >{% if tongue == 'ko' %}한{% else %}EN{% endif %}</a>{% unless forloop.last %}<span class="text-muted">/</span>{% endunless %}
+                  title="{{ lang_name }}"
+                  aria-label="{{ lang_name }}"
+                ><img src="{{ '/assets/img/flags/' | append: flag | append: '.svg' | relative_url }}" alt="{{ lang_name }}" width="20" height="15"></a>
               {% endfor %}
             </li>
           {% endif %}
