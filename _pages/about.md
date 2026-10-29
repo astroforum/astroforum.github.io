@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: about
 title: about
 permalink: /

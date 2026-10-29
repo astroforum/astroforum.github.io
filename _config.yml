@@ -16,6 +16,14 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: materials science, materials engineering, research lab
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+
+# Multilingual site (jekyll-polyglot): English at /, Korean at /ko/.
+# A Korean page is a copy of the English page in _pages/ko/ with `lang: ko` and the same permalink.
+# Pages without a Korean copy fall back to English.
+languages: ["en", "ko"]
+default_lang: "en"
+exclude_from_localization: ["assets", "robots.txt", "sitemap.xml", "feed.xml"]
+parallel_localization: false
 icon: logo/favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: /assets/img/logo/apple-touch-icon.png # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
@@ -245,6 +253,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_pi.md
+  - _pages/ko/about_pi.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -280,6 +289,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-polyglot
 
   # al-folio plugins
   - al_folio_core

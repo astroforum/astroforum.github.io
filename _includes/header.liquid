@@ -115,6 +115,18 @@
               </button>
             </li>
           {% endif %}
+          {% if site.languages.size > 1 %}
+            <!-- Language switch (jekyll-polyglot) -->
+            <li class="nav-item astro-lang">
+              {% for tongue in site.languages %}
+                <a
+                  class="nav-link d-inline px-1 {% if tongue == site.active_lang %}font-weight-bold{% endif %}"
+                  {% static_href %}href="{% if tongue == site.default_lang %}{{ site.baseurl }}{{ page.url }}{% else %}{{ site.baseurl }}/{{ tongue }}{{ page.url }}{% endif %}"{% endstatic_href %}
+                  lang="{{ tongue }}"
+                >{% if tongue == 'ko' %}한{% else %}EN{% endif %}</a>{% unless forloop.last %}<span class="text-muted">/</span>{% endunless %}
+              {% endfor %}
+            </li>
+          {% endif %}
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
