@@ -2,9 +2,9 @@
 lang: ko
 layout: profiles
 permalink: /people/
-title: 구성원
-description: Astro Lab 구성원
-nav: true
+title: 지도교수
+description: 연구책임자
+nav: false
 nav_order: 1
 
 profiles:
@@ -15,10 +15,5 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>kyoon@hanbat.ac.kr<br>전화: 042-821-1252<br>연구실: N8동 510호<br>실험실: N8동 415호</p>
-
-  - align: right
-    image: please_knock.svg
-    content: join_us.md
-    image_circular: false
 
 ---

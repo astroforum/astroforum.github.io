@@ -2,9 +2,9 @@
 lang: en
 layout: profiles
 permalink: /people/
-title: people
-description: members of Astro Lab
-nav: true
+title: PI
+description: principal investigator
+nav: false
 nav_order: 1
 
 profiles:
@@ -15,10 +15,5 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>kyoon@hanbat.ac.kr<br>Tel: +82-42-821-1252<br>Office: Room 510, Bldg. N8<br>Lab: Room 415, Bldg. N8</p>
-
-  - align: right
-    image: please_knock.svg
-    content: join_us.md
-    image_circular: false
 
 ---
