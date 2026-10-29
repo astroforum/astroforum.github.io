@@ -222,6 +222,13 @@ body > #header .header-bar {
   transition: 200ms ease;
 }
 
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 0px 0px;
+  overflow: hidden;
+  background-color: rgba(180, 180, 180, 0.3);
+}
+
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
@@ -449,7 +456,6 @@ h1,
 h2,
 h3,
 h4,
-h6,
 pre,
 code,
 form,
@@ -558,6 +564,18 @@ hr {
   -webkit-box-shadow: none;
   box-shadow: none;
   z-index: 10;
+}
+
+#clusters > a {
+  color: #ef5c00;
+  text-decoration: underline;
+  cursor: auto;
+}
+
+#clusters > a:hover {
+  color: #126dce;
+  text-decoration: underline;
+  cursor: auto;
 }
 
 mark,
