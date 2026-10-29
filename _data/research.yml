@@ -10,7 +10,6 @@
   title_ko: 원자력 재료
   desc: Fusion and fission reactors expose structural materials to irradiation, heat and coolants. We develop and test materials for these environments, such as W-rich refractory high-entropy alloy–Cu composites for reactor coolant systems.
   desc_ko: 핵융합·핵분열 원자로의 구조재료는 방사선, 열, 냉각재에 동시에 노출됩니다. 원자로 냉각계통용 W-rich 내화 고엔트로피 합금–Cu 복합재처럼 이런 환경을 견디는 재료를 개발하고 평가합니다.
-  cover: cover_smtd_2025.jpg
   papers:
     - text: "Bi-Continuous W-Rich Refractory High Entropy Alloy-Cu Composite, Small Methods (2025), Cover"
       doi: 10.1002/smtd.202500667
@@ -46,7 +45,6 @@
   title_ko: 다공성 금속
   desc: Porous metals are light and have a large surface area. We make porous metals by liquid metal dealloying and tailor their surfaces and mechanical properties.
   desc_ko: 다공성 금속은 가볍고 표면적이 넓습니다. 액체금속 탈합금법으로 다공성 금속을 만들고 표면과 기계적 특성을 제어합니다.
-  cover: cover_smtd_2024.jpg
   papers:
     - text: "Water Etched Porous Ti: Surface Manipulation of Ti Foam by Liquid Metal Dealloying, Small Methods (2024), Cover"
       doi: 10.1002/smtd.202401092
