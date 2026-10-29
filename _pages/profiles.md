@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: profiles
 permalink: /people/
 title: people
