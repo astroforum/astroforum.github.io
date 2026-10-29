@@ -4,7 +4,7 @@ title: research
 permalink: /projects/
 description: "[연구 방향 한 줄 소개]"
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [work]
 horizontal: false
 ---
