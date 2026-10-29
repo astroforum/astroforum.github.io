@@ -1,25 +1,50 @@
-# Research areas shown as cards on the home page (from the CV sheet's 연구분야 tab)
+# Research areas shown on the research tab (from the CV sheet's 연구분야 tab).
+# papers: related publications (newest first); cover: journal cover in assets/img/publication_preview/
 - title: High-Temperature Superalloys
   title_ko: 초내열합금
-  desc: Superalloys for high-temperature service, with mechanical testing and property evaluation.
-  desc_ko: 고온 환경용 초내열합금 설계와 기계적 특성 평가
+  desc: Superalloys keep their strength at temperatures where most metals soften. We design superalloy compositions and evaluate their high-temperature mechanical behavior.
+  desc_ko: 초내열합금은 대부분의 금속이 물러지는 고온에서도 강도를 유지합니다. 초내열합금 조성을 설계하고 고온 기계적 거동을 평가합니다.
 - title: Nuclear Materials
   title_ko: 원자력 재료
-  desc: Structural materials for fusion and fission, with mechanical testing and property evaluation.
-  desc_ko: 핵융합·핵분열 구조재료와 기계적 특성 평가
+  desc: Fusion and fission reactors expose structural materials to irradiation, heat and coolants. We develop and test materials for these environments, such as W-rich refractory high-entropy alloy–Cu composites for reactor coolant systems.
+  desc_ko: 핵융합·핵분열 원자로의 구조재료는 방사선, 열, 냉각재에 동시에 노출됩니다. 원자로 냉각계통용 W-rich 내화 고엔트로피 합금–Cu 복합재처럼 이런 환경을 견디는 재료를 개발하고 평가합니다.
+  cover: cover_smtd_2025.jpg
+  papers:
+    - text: "Bi-Continuous W-Rich Refractory High Entropy Alloy-Cu Composite, Small Methods (2025), Cover"
+      doi: 10.1002/smtd.202500667
+    - text: "Irradiation-induced gas production in REBCO-based magnet materials, J. Appl. Phys. (2025)"
+      doi: 10.1063/5.0263824
 - title: Hydrogen Storage Materials
   title_ko: 수소저장 소재
-  desc: Design of hydrogen storage materials and evaluation of their properties.
-  desc_ko: 수소저장 소재 설계와 특성 평가
+  desc: Hydrogen storage alloys take up and release hydrogen reversibly. We design storage materials and evaluate their properties.
+  desc_ko: 수소저장 합금은 수소를 가역적으로 흡수하고 방출합니다. 수소저장 소재를 설계하고 그 특성을 평가합니다.
 - title: High-Entropy Alloys
   title_ko: 고엔트로피 합금
-  desc: High-entropy alloys (HEAs), with mechanical testing and property evaluation.
-  desc_ko: 고엔트로피 합금(HEA) 설계와 기계적 특성 평가
+  desc: High-entropy alloys mix several principal elements and open a vast composition space. We design HEAs for strength, ductility and damage tolerance, and look for simple measurements that predict their properties.
+  desc_ko: 고엔트로피 합금은 여러 주원소를 섞어 매우 넓은 조성 공간을 엽니다. 강도, 연성, 손상 저항성을 갖춘 HEA를 설계하고, 물성을 간단한 측정으로 예측하는 방법을 찾습니다.
+  papers:
+    - text: "Yield strength prediction in WTaVTiCr refractory HEAs via TCR, J. Alloys Compd. (2025)"
+      doi: 10.1016/j.jallcom.2025.182004
+    - text: "Low-temperature impact-damage tolerant high entropy alloy, J. Appl. Phys. (2023)"
+      doi: 10.1063/5.0147689
+    - text: "A new class of light-weight metastable high entropy alloy, Materialia (2022)"
+      doi: 10.1016/j.mtla.2021.101284
+    - text: "Engineering atomic-level complexity in high entropy and complex concentrated alloys, Nat. Commun. (2019)"
+      doi: 10.1038/s41467-019-10012-7
 - title: Metal Matrix Composites
   title_ko: 금속기지 복합재
-  desc: Manufacturing of metal matrix composites (MMCs) and evaluation of their mechanical properties.
-  desc_ko: 금속기지 복합재(MMC) 제조와 기계적 특성 평가
+  desc: Combining a metal matrix with a second phase gives properties neither has alone. We fabricate metal matrix composites and evaluate their mechanical behavior.
+  desc_ko: 금속 기지에 다른 상을 결합하면 각각으로는 얻을 수 없는 특성이 생깁니다. 금속기지 복합재를 제조하고 기계적 거동을 평가합니다.
+  papers:
+    - text: "Bi-Continuous W-Rich Refractory High Entropy Alloy-Cu Composite, Small Methods (2025)"
+      doi: 10.1002/smtd.202500667
+    - text: "In-situ synthesis of Mg-based bulk metallic glass matrix composites, J. Alloys Compd. (2021)"
+      doi: 10.1016/j.jallcom.2021.160417
 - title: Porous Metals
   title_ko: 다공성 금속
-  desc: Porous metals, with mechanical testing and property evaluation.
-  desc_ko: 다공성 금속 제조와 기계적 특성 평가
+  desc: Porous metals are light and have a large surface area. We make porous metals by liquid metal dealloying and tailor their surfaces and mechanical properties.
+  desc_ko: 다공성 금속은 가볍고 표면적이 넓습니다. 액체금속 탈합금법으로 다공성 금속을 만들고 표면과 기계적 특성을 제어합니다.
+  cover: cover_smtd_2024.jpg
+  papers:
+    - text: "Water Etched Porous Ti: Surface Manipulation of Ti Foam by Liquid Metal Dealloying, Small Methods (2024), Cover"
+      doi: 10.1002/smtd.202401092

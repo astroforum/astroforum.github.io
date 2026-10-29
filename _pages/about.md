@@ -17,4 +17,6 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-ASTRO Lab (**A**lloy design for **ST**ructural **RO**bustness) designs metallic materials that stay strong and reliable under demanding conditions such as high temperature, irradiation, and hydrogen. We combine thermodynamics-based alloy design with processing and mechanical testing to connect composition, microstructure, and properties.
+Structural materials carry the load in the harshest places we build: jet engines, fusion and fission reactors, hydrogen infrastructure. When the material fails, the whole system fails. ASTRO Lab (**A**lloy design for **ST**ructural **RO**bustness) designs metallic alloys that stay strong, tough and reliable under such conditions.
+
+Our work starts from thermodynamics. We use thermodynamics-based alloy design and composition–microstructure–property relationships to decide where to look, make the alloys ourselves, and test how they behave. From high-entropy alloys and superalloys to composites and porous metals, the goal is the same: alloys designed on purpose, not found by chance.

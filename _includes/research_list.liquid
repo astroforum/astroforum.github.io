@@ -1,0 +1,37 @@
+{% assign ko = false %}
+{% if site.active_lang == 'ko' %}{% assign ko = true %}{% endif %}
+<div class="astro-areas">
+{% for area in site.data.research %}
+<section class="astro-area">
+<div class="astro-area-text">
+<h2>{% if ko %}{{ area.title_ko }}{% else %}{{ area.title }}{% endif %}</h2>
+<p>{% if ko %}{{ area.desc_ko }}{% else %}{{ area.desc }}{% endif %}</p>
+{% if area.papers %}
+<p class="astro-area-label">{% if ko %}관련 논문{% else %}Related publications{% endif %}</p>
+<ul class="astro-area-papers">
+{% for paper in area.papers %}
+<li><a href="https://doi.org/{{ paper.doi }}" target="_blank" rel="noopener">{{ paper.text }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
+</div>
+{% if area.cover %}
+<a class="astro-area-cover" href="https://doi.org/{{ area.papers[0].doi }}" target="_blank" rel="noopener"><img src="{{ area.cover | prepend: '/assets/img/publication_preview/' | relative_url }}" alt="journal cover" loading="lazy"></a>
+{% endif %}
+</section>
+{% endfor %}
+</div>
+
+<style>
+  .astro-area { display: flex; gap: 1.5rem; align-items: flex-start; padding: 1.5rem 0; border-bottom: 1px solid var(--global-divider-color); }
+  .astro-area:last-child { border-bottom: none; }
+  .astro-area-text { flex: 1; }
+  .astro-area h2 { font-size: 1.4rem; margin: 0 0 0.5rem; padding-left: 0.75rem; border-left: 4px solid #d7263d; }
+  .astro-area p { margin-bottom: 0.5rem; }
+  .astro-area-label { font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--global-text-color-light); margin-top: 0.75rem; }
+  .astro-area-papers { font-size: 0.9rem; padding-left: 1.2rem; margin: 0; }
+  .astro-area-papers li { margin-bottom: 0.25rem; }
+  .astro-area-cover { flex: 0 0 140px; }
+  .astro-area-cover img { width: 100%; border-radius: 0.3rem; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18); }
+  @media (max-width: 575.98px) { .astro-area-cover { display: none; } }
+</style>
