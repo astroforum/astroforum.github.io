@@ -26,4 +26,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-[연구실 소개 — 어떤 재료를 어떤 방법으로 연구하는지 두세 문단. 오른쪽 사진은 assets/img/prof_pic.jpg 를 바꾸면 됩니다.]
+[연구실 소개 (영어) — 어떤 재료를 어떤 방법으로 연구하는지 두세 문단]
