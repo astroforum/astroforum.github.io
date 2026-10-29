@@ -1,0 +1,7 @@
+<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <path d="M32 8 L58 54 L6 54 Z"/>
+  <path d="M19 31 L45 31 M12.5 42.5 L51.5 42.5 M25.5 19.5 L38.5 19.5 M19 54 L38.5 19.5 M45 54 L25.5 19.5 M32 54 L45 31 M32 54 L19 31" stroke-width="1.4" opacity=".4"/>
+  <circle cx="28" cy="38" r="2.2" fill="currentColor" stroke="none"/>
+  <circle cx="38" cy="44" r="2.2" fill="currentColor" stroke="none"/>
+  <circle cx="33" cy="30" r="4" class="astro-ic-accent" stroke="none"/>
+</svg>

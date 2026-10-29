@@ -1,0 +1,9 @@
+<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <g transform="rotate(-30 22 20)">
+    <path d="M8 10 L36 10 L32 32 L12 32 Z"/>
+    <path d="M10 18 L34 18" class="astro-ic-accent-stroke"/>
+  </g>
+  <path d="M37 22 C40 30 41 38 41 44" class="astro-ic-accent-stroke" stroke-width="3.5"/>
+  <path d="M26 44 L56 44 L56 56 L26 56 Z"/>
+  <path d="M33 48 L49 48 L49 52 L33 52 Z" class="astro-ic-accent" stroke="none"/>
+</svg>
