@@ -11,4 +11,6 @@ thumbnail: assets/img/blog/2026-07-kaeri-visit.jpg
 
 Prof. Kook Noh Yoon and the capstone design students visited the Korea Atomic Energy Research Institute (KAERI) in Daejeon. The students saw how materials for nuclear energy are developed and tested at a national research institute.
 
+Many thanks to Dr. Minsung Hong for kindly showing us around KAERI.
+
 ![Visit to KAERI](/assets/img/blog/2026-07-kaeri-visit.jpg){: .img-fluid .rounded .z-depth-1}
