@@ -16,4 +16,9 @@ profiles:
     more_info: >
       <p>kyoon@hanbat.ac.kr<br>전화: 042-821-1252<br>연구실: N8동 510호<br>실험실: N8동 415호</p>
 
+  - align: right
+    image: please_knock.svg
+    content: join_us.md
+    image_circular: false
+
 ---

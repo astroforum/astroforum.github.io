@@ -254,6 +254,8 @@ exclude:
   - package-lock.json
   - _pages/about_pi.md
   - _pages/ko/about_pi.md
+  - _pages/join_us.md
+  - _pages/ko/join_us.md
   - purgecss.config.js
   - README.md
   - readme_preview/

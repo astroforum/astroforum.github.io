@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a4a33"/>
+      <stop offset="1" stop-color="#5e3726"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="#f4f1ec"/>
+  <!-- twine and nail -->
+  <path d="M120 470 L300 170 L480 470" fill="none" stroke="#b08a5a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="300" cy="165" r="10" fill="#2b2b2b"/>
+  <!-- board -->
+  <rect x="50" y="440" width="500" height="250" rx="12" fill="url(#wood)"/>
+  <g stroke="#4a2a1c" stroke-opacity="0.35" stroke-width="2">
+    <line x1="50" y1="490" x2="550" y2="490"/>
+    <line x1="50" y1="540" x2="550" y2="540"/>
+    <line x1="50" y1="590" x2="550" y2="590"/>
+    <line x1="50" y1="640" x2="550" y2="640"/>
+  </g>
+  <rect x="68" y="458" width="464" height="214" rx="4" fill="none" stroke="#fff" stroke-width="3"/>
+  <circle cx="120" cy="470" r="8" fill="#3a2016"/>
+  <circle cx="480" cy="470" r="8" fill="#3a2016"/>
+  <g fill="#fff" font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="300" y="545" font-size="62" font-weight="500" letter-spacing="3">PLEASE</text>
+    <text x="300" y="610" font-size="54" font-weight="500" letter-spacing="3">KNOCK</text>
+    <text x="300" y="652" font-size="22" letter-spacing="4">NEW MEMBERS WELCOME</text>
+  </g>
+</svg>
