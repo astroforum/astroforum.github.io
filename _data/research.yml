@@ -1,0 +1,25 @@
+# Research areas shown as cards on the home page (from the CV sheet's 연구분야 tab)
+- title: High-Temperature Superalloys
+  title_ko: 초내열합금
+  desc: Superalloys for high-temperature service, with mechanical testing and property evaluation.
+  desc_ko: 고온 환경용 초내열합금 설계와 기계적 특성 평가
+- title: Nuclear Materials
+  title_ko: 원자력 재료
+  desc: Structural materials for fusion and fission, with mechanical testing and property evaluation.
+  desc_ko: 핵융합·핵분열 구조재료와 기계적 특성 평가
+- title: Hydrogen Storage Materials
+  title_ko: 수소저장 소재
+  desc: Design of hydrogen storage materials and evaluation of their properties.
+  desc_ko: 수소저장 소재 설계와 특성 평가
+- title: High-Entropy Alloys
+  title_ko: 고엔트로피 합금
+  desc: High-entropy alloys (HEAs), with mechanical testing and property evaluation.
+  desc_ko: 고엔트로피 합금(HEA) 설계와 기계적 특성 평가
+- title: Metal Matrix Composites
+  title_ko: 금속기지 복합재
+  desc: Manufacturing of metal matrix composites (MMCs) and evaluation of their mechanical properties.
+  desc_ko: 금속기지 복합재(MMC) 제조와 기계적 특성 평가
+- title: Porous Metals
+  title_ko: 다공성 금속
+  desc: Porous metals, with mechanical testing and property evaluation.
+  desc_ko: 다공성 금속 제조와 기계적 특성 평가
