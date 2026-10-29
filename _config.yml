@@ -22,7 +22,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 # Pages without a Korean copy fall back to English.
 languages: ["en", "ko"]
 default_lang: "en"
-exclude_from_localization: ["assets", "robots.txt", "sitemap.xml", "feed.xml"]
+exclude_from_localization: ["assets", "robots.txt", "sitemap.xml", "feed.xml", "cv"]
 parallel_localization: false
 icon: logo/favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: /assets/img/logo/apple-touch-icon.png # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
