@@ -15,7 +15,6 @@ layout: default
       src="{{ '/assets/img/logo/astro-logo-horizontal-mono-reverse.svg' | relative_url }}"
       alt="ASTRO Lab"
     >
-    <p class="astro-hero-tagline">Alloy design for <b>ST</b>ructural <b>RO</b>bustness</p>
     <p class="astro-hero-sub">{{ page.subtitle }}</p>
   </section>
 
@@ -66,9 +65,7 @@ layout: default
     text-align: center;
   }
   .astro-hero-logo { width: 100%; max-width: 420px; height: auto; }
-  .astro-hero-tagline { font-size: 1.15rem; margin: 1rem 0 0.25rem; letter-spacing: 0.02em; }
-  .astro-hero-tagline b { color: #ff6b7d; }
-  .astro-hero-sub { opacity: 0.8; margin: 0; font-size: 0.95rem; }
+  .astro-hero p.astro-hero-sub { color: #fff; opacity: 0.85; margin: 1.25rem 0 0; font-size: 1rem; }
   .astro-intro { margin-bottom: 1.5rem; }
   .astro-cards {
     display: grid;
@@ -89,6 +86,6 @@ layout: default
   .astro-contact .contact-icons { font-size: 1.6rem; }
   @media (max-width: 575.98px) {
     .astro-hero { padding: 1.75rem 1rem 1.5rem; }
-    .astro-hero-tagline { font-size: 1rem; }
+    .astro-hero p.astro-hero-sub { font-size: 0.85rem; }
   }
 </style>
