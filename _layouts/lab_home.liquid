@@ -87,6 +87,9 @@ layout: default
       {% if page.social %}
         <div class="contact-icons">{% social_links %}</div>
       {% endif %}
+      {% if page.join %}
+        <p class="astro-join"><a class="astro-cv-btn" href="{{ '/members/' | relative_url }}#join">{{ page.join }}</a></p>
+      {% endif %}
     </div>
   </article>
 </div>
@@ -174,6 +177,7 @@ layout: default
   .astro-contact { margin-bottom: 2rem; }
   .astro-contact p { margin-bottom: 0.75rem; }
   .astro-contact .contact-icons { font-size: 1.6rem; }
+  .astro-join { margin-top: 1rem; }
   @media (max-width: 575.98px) {
     .astro-hero { padding: 1.25rem 0 1.25rem; }
     .astro-hero p.astro-hero-sub { font-size: 0.85rem; }

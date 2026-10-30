@@ -10,6 +10,7 @@ contact: >
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons in the contact section
+join: "Join Team ASTRO →" # button under contact, links to the recruit box on /members/
 
 announcements:
   enabled: false # latest-blog-posts box on the home page (user turned it off 2026-10-30)

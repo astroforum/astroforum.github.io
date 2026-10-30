@@ -10,6 +10,7 @@ contact: >
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons in the contact section
+join: "학생 모집 안내 →" # 연락처 아래 버튼, members 페이지 모집 칸으로 연결
 
 announcements:
   enabled: false # latest-blog-posts box on the home page (user turned it off 2026-10-30)
