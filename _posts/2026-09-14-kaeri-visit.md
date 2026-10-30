@@ -2,7 +2,7 @@
 layout: post
 lang: en
 title: Capstone design students visit KAERI
-date: 2026-07-15
+date: 2026-09-14
 permalink: /blog/2026/kaeri-visit/
 description: A field trip to the Korea Atomic Energy Research Institute
 tags: [lab, education]

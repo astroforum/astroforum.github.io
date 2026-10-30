@@ -2,7 +2,7 @@
 layout: post
 lang: ko
 title: 캡스톤디자인 학생들과 한국원자력연구원 견학
-date: 2026-07-15
+date: 2026-09-14
 permalink: /blog/2026/kaeri-visit/
 description: 국가 연구기관 현장 견학
 tags: [lab, education]
