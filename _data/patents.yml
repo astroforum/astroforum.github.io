@@ -1,7 +1,7 @@
 # Patents shown on /patents/ and /ko/patents/.
-# Source: CV Google Sheet (cv_data_updated20261029), tabs 국제특허 / 국내특허.
-# Add new items at the top of each list. Dates are YYYY.MM.DD.
-# status: Registered / Allowed / Applied
+# Generated from the CV Google Sheet (tabs 국제특허 / 국내특허) by cv/build_homepage_data.py.
+# Change the sheet and run the script instead of editing this file.
+# Dates are YYYY.MM.DD. status: Registered / Allowed / Applied
 
 transfers:
   - year: 2023
@@ -24,14 +24,6 @@ transfers:
     royalty: ₩ 95,000,000
 
 international:
-  - title: Resettable gears and manufacturing method therefor
-    inventors: E.S. Park, G.H. Yoo, K.N. Yoon, J.Y. Kim, W.H. Ryu
-    country: US
-    status: Registered
-    app_no: 17/486,998
-    app_date: 2021.09.28
-    reg_no: 11,873,548 B2
-    reg_date: 2024.01.16
   - title: Self-healing Co based alloys and manufacturing method for the same
     inventors: E.S. Park, K.N. Yoon, J.S. Lee, G.H. Yoo, J.Y. Kim
     country: JP
@@ -40,6 +32,14 @@ international:
     app_date: 2020.08.19
     reg_no: "7495149"
     reg_date: 2024.05.27
+  - title: Resettable gears and manufacturing method therefor
+    inventors: E.S. Park, G.H. Yoo, K.N. Yoon, J.Y. Kim, W.H. Ryu
+    country: US
+    status: Registered
+    app_no: 17/486,998
+    app_date: 2021.09.28
+    reg_no: 11,873,548 B2
+    reg_date: 2024.01.16
   - title: Complex copper alloy including high-entropy alloy and method of manufacturing same
     inventors: E.S. Park, K.N. Yoon, J.Y. Kim, J.W. Yeh
     country: US
@@ -134,13 +134,13 @@ international:
     inventors: E.S. Park, K.N. Yoon, J.S. Lee, G.H. Yoo, J.Y. Kim
     country: EP
     status: Applied
-    app_no: 20200982.5
+    app_no: "20200982.5"
     app_date: 2020.10.09
   - title: Complex copper alloy including high-entropy alloy and method of manufacturing same
     inventors: E.S. Park, K.N. Yoon, J.Y. Kim, J.W. Yeh
     country: EP
     status: Applied
-    app_no: 19876627.1
+    app_no: "19876627.1"
     app_date: 2019.10.22
   - title: Complex copper alloy including high-entropy alloy and method of manufacturing same
     inventors: E.S. Park, K.N. Yoon, J.Y. Kim, J.W. Yeh
@@ -212,7 +212,7 @@ domestic:
     app_no: 10-2021-0032316
     app_date: 2021.03.11
     reg_no: 10-2467112
-    reg_date: 2022.11.16
+    reg_date: 2022.11.10
   - title: High entropy alloy with heterogenous complex microstructure and the manufacturing method thereof
     title_ko: 불균일 복합 미세구조 하이엔트로피 합금 및 그 제조 방법
     inventors: J. Zhang, K.N. Yoon, M.S. Kim, H.S. Ahn, J.Y. Kim, E.S. Park
