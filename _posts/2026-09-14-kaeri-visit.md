@@ -14,4 +14,4 @@ Prof. Kook Noh Yoon and the capstone design students visited the Korea Atomic En
 
 ![Visit to KAERI](/assets/img/blog/2026-09-kaeri-visit.jpg){: .img-fluid .rounded .z-depth-1}
 
-> **Many thanks to Dr. Hong for kindly showing us around KAERI.**
+> **Many thanks to the KAERI staff for kindly showing us around.**

@@ -14,4 +14,4 @@ thumbnail: assets/img/blog/2026-09-kaeri-visit.jpg
 
 ![한국원자력연구원 견학](/assets/img/blog/2026-09-kaeri-visit.jpg){: .img-fluid .rounded .z-depth-1}
 
-> **바쁘신 와중에도 견학을 안내해 주신 한국원자력연구원 홍민성 박사님께 깊이 감사드립니다.**
+> **견학을 안내해 주신 한국원자력연구원 관계자분들께 감사드립니다.**
