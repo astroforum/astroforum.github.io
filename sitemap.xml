@@ -1,0 +1,28 @@
+---
+layout: null
+permalink: /sitemap.xml
+sitemap: false
+---
+{% comment %}
+  Replaces the jekyll-sitemap output, which lists English URLs only.
+  Each page is listed at its English URL and its /ko/ URL (polyglot serves both).
+  skip = hidden template pages and files that shouldn't be in search; en_only = not localized.
+{% endcomment -%}
+{% assign skip = "/books/,/_pages/dropdown/,/plugins/,/people-menu/,/repositories/,/teaching/,/news/,/404.html" | split: "," -%}
+{% assign en_only = "/cv/" | split: "," -%}
+{% assign base = site.url | append: site.baseurl -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for item in site.posts %}
+  <url><loc>{{ base }}{{ item.url }}</loc><lastmod>{{ item.date | date_to_xmlschema }}</lastmod></url>
+  <url><loc>{{ base }}/ko{{ item.url }}</loc><lastmod>{{ item.date | date_to_xmlschema }}</lastmod></url>
+{%- endfor %}
+{%- for item in site.html_pages %}
+  {%- unless item.sitemap == false or skip contains item.url %}
+  <url><loc>{{ base }}{{ item.url }}</loc></url>
+  {%- unless en_only contains item.url %}
+  <url><loc>{{ base }}/ko{{ item.url }}</loc></url>
+  {%- endunless %}
+  {%- endunless %}
+{%- endfor %}
+</urlset>
