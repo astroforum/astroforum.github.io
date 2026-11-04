@@ -13,6 +13,8 @@
 {% endif %}
 <p class="astro-equip-name">{{ item.name }}{% if item.coming %} <span class="astro-equip-badge">{% if ko %}도입 예정{% else %}Coming soon{% endif %}</span>{% endif %}</p>
 {% if item.maker %}<p class="astro-equip-maker">{{ item.maker }}</p>{% endif %}
+{% assign note = item.note %}{% if ko and item.note_ko %}{% assign note = item.note_ko %}{% endif %}
+{% if note %}<p class="astro-equip-maker">{{ note }}</p>{% endif %}
 </div>
 {% endfor %}
 </div>

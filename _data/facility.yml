@@ -4,6 +4,7 @@
 #     maker: Samhan Vacuum
 #     image: facility/arc.jpg   # optional, file in assets/img/facility/
 #     coming: true              # optional, shows a "coming soon" badge
+#     note: Box arrived         # optional one-line note (note_ko for the Korean page)
 - category: Sample Preparation
   category_ko: 시편 제작
   items:
@@ -12,10 +13,23 @@
       image: blog/2026-06-polisher.jpg
 - category: Processing
   category_ko: 공정
-  items: []
+  items:
+    - name: Tube Furnace
+      note: For heat treatment
+      note_ko: 열처리용
+      image: facility/tube-furnace.jpg
+    - name: 3D Printer (Bambu Lab P2S Combo)
+      note: For prototyping. The box has arrived; installation coming soon.
+      note_ko: 프로토타입 제작용. 박스가 도착했고 곧 설치됩니다.
+      image: facility/3d-printer-box.jpg
+      coming: true
 - category: Mechanical Testing
   category_ko: 기계적 특성 평가
   items:
+    - name: Indenter (hardness tester)
+      note: Newly arrived
+      note_ko: 새로 들어왔습니다
+      image: facility/indenter.jpg
     - name: Universal Testing Machine (500 kN)
       maker: SALT, ST-1002
       coming: true
