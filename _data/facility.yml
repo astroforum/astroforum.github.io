@@ -17,6 +17,7 @@
   category_ko: 기계적 특성 평가
   items:
     - name: Indentation Hardness Tester
+      maker: TIME, TH715X
       note: Installed November 2026
       note_ko: 압입시험기, 2026년 11월 설치
       image: facility/indenter.jpg
