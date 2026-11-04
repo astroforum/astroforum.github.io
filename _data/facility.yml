@@ -16,9 +16,9 @@
 - category: Mechanical Testing
   category_ko: 기계적 특성 평가
   items:
-    - name: Indenter (hardness tester)
-      note: Newly arrived
-      note_ko: 새로 들어왔습니다
+    - name: Indentation Hardness Tester
+      note: Installed November 2026
+      note_ko: 압입시험기, 2026년 11월 설치
       image: facility/indenter.jpg
     - name: Universal Testing Machine (500 kN)
       maker: SALT, ST-1002
