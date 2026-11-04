@@ -5,19 +5,9 @@
 #     image: facility/arc.jpg   # optional, file in assets/img/facility/
 #     coming: true              # optional, shows a "coming soon" badge
 #     note: Box arrived         # optional one-line note (note_ko for the Korean page)
-- category: Sample Preparation
-  category_ko: 시편 제작
+- category: Fabrication
+  category_ko: 제작
   items:
-    - name: Auto Grinder/Polisher (twin-wheel)
-      maker: TOPTECH
-      image: blog/2026-06-polisher.jpg
-- category: Processing
-  category_ko: 공정
-  items:
-    - name: Tube Furnace
-      note: For heat treatment
-      note_ko: 열처리용
-      image: facility/tube-furnace.jpg
     - name: 3D Printer (Bambu Lab P2S Combo)
       note: For prototyping. The box has arrived; installation coming soon.
       note_ko: 프로토타입 제작용. 박스가 도착했고 곧 설치됩니다.
@@ -33,3 +23,16 @@
     - name: Universal Testing Machine (500 kN)
       maker: SALT, ST-1002
       coming: true
+- category: Processing
+  category_ko: 공정
+  items:
+    - name: Tube Furnace
+      note: For heat treatment
+      note_ko: 열처리용
+      image: facility/tube-furnace.jpg
+- category: Sample Preparation
+  category_ko: 시편 제작
+  items:
+    - name: Auto Grinder/Polisher (twin-wheel)
+      maker: TOPTECH
+      image: blog/2026-06-polisher.jpg
