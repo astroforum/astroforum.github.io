@@ -2,7 +2,7 @@
 layout: post
 lang: ko
 title: 3D 프린터 첫 출력물, 연구실 명패
-date: 2026-11-10
+date: 2026-11-10 00:00:00 +0900
 permalink: /blog/2026/name-plate/
 description: 새 3D 프린터로 처음 만든 것
 tags: [lab]

@@ -2,7 +2,7 @@
 layout: post
 lang: en
 title: "First print: our lab name plate"
-date: 2026-11-10
+date: 2026-11-10 00:00:00 +0900
 permalink: /blog/2026/name-plate/
 description: The first thing we made with our new 3D printer
 tags: [lab]
