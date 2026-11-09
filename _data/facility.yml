@@ -9,10 +9,9 @@
   category_ko: 제작
   items:
     - name: 3D Printer (Bambu Lab P2S Combo)
-      note: For prototyping. The box has arrived; installation coming soon.
-      note_ko: 프로토타입 제작용. 박스가 도착했고 곧 설치됩니다.
-      image: facility/3d-printer-box.jpg
-      coming: true
+      note: For prototyping, installed November 2026
+      note_ko: 프로토타입 제작용, 2026년 11월 설치
+      image: facility/3d-printer.jpg
 - category: Mechanical Testing
   category_ko: 기계적 특성 평가
   items:
@@ -20,7 +19,7 @@
       maker: TIME, TH715X
       note: Installed November 2026
       note_ko: 압입시험기, 2026년 11월 설치
-      image: facility/indenter.jpg
+      image: facility/indenter-installed.jpg
     - name: Universal Testing Machine (500 kN)
       maker: SALT, ST-1002
       coming: true
@@ -37,3 +36,8 @@
     - name: Auto Grinder/Polisher (twin-wheel)
       maker: TOPTECH
       image: blog/2026-06-polisher.jpg
+    - name: Analytical Balance (320 g / 0.001 g)
+      maker: A&D, GF-303A
+      note: Arrived November 2026
+      note_ko: 정밀 저울, 2026년 11월 입고
+      image: facility/balance.jpg
