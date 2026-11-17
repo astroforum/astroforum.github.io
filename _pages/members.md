@@ -17,6 +17,10 @@ profiles:
     content: about_joohyun_kim.md
     image_circular: false
   - align: right
+    image: member_hanjun_lee.jpg
+    content: about_hanjun_lee.md
+    image_circular: false
+  - align: right
     image: please_knock.svg
     content: join_us.md
     image_circular: false
