@@ -1,32 +1,41 @@
 # Lab equipment shown on the facility page.
-# To add an item, put it under the right category, e.g.
-#   - name: Vacuum Arc Melter
-#     maker: Samhan Vacuum
-#     image: facility/arc.jpg   # optional, file in assets/img/facility/
-#     coming: true              # optional, shows a "coming soon" badge
-#     note: Box arrived         # optional one-line note (note_ko for the Korean page)
+# Every item uses the same four lines (leave out what you don't know):
+#   - name: Vacuum Arc Melter          # English name, specs in brackets
+#     name_ko: 진공 아크 용해로           # Korean name for the Korean page
+#     maker: Samhan Vacuum, SVA-100     # "Maker, Model"
+#     note: For alloy melting · Installed December 2026
+#     note_ko: 합금 용해용 · 2026년 12월 설치
+#     image: facility/arc.jpg           # optional, file in assets/img/facility/
+#     coming: true                      # optional, shows a "coming soon" badge
 - category: Fabrication
   category_ko: 제작
   items:
-    - name: 3D Printer (Bambu Lab P2S Combo)
-      note: For prototyping, installed November 2026
-      note_ko: 프로토타입 제작용, 2026년 11월 설치
+    - name: 3D Printer
+      name_ko: 3D 프린터
+      maker: Bambu Lab, P2S Combo
+      note: For prototyping · Installed November 2026
+      note_ko: 프로토타입 제작용 · 2026년 11월 설치
       image: facility/3d-printer.jpg
 - category: Mechanical Testing
   category_ko: 기계적 특성 평가
   items:
     - name: Indentation Hardness Tester
+      name_ko: 압입 경도 시험기
       maker: TIME, TH715X
-      note: Installed November 2026
-      note_ko: 압입시험기, 2026년 11월 설치
+      note: For hardness testing · Installed November 2026
+      note_ko: 경도 측정용 · 2026년 11월 설치
       image: facility/indenter-installed.jpg
     - name: Universal Testing Machine (500 kN)
+      name_ko: 만능재료시험기 (500 kN)
       maker: SALT, ST-1002
+      note: For tensile and compression testing
+      note_ko: 인장·압축 시험용
       coming: true
 - category: Processing
   category_ko: 공정
   items:
     - name: Tube Furnace
+      name_ko: 튜브 전기로
       note: For heat treatment
       note_ko: 열처리용
       image: facility/tube-furnace.jpg
@@ -34,15 +43,20 @@
   category_ko: 시편 제작
   items:
     - name: Automatic Cut-off Machine
+      name_ko: 자동 정밀 절단기
       maker: TOPTECH, ALTOCUT
-      note: Installed November 2026
-      note_ko: 자동 정밀 절단기, 2026년 11월 설치
+      note: For sample cutting · Installed November 2026
+      note_ko: 시편 절단용 · 2026년 11월 설치
       image: facility/cutter.jpg
     - name: Auto Grinder/Polisher (twin-wheel)
+      name_ko: 자동 연마기 (트윈 휠)
       maker: TOPTECH
+      note: For grinding and polishing · Installed June 2026
+      note_ko: 연마용 · 2026년 6월 설치
       image: blog/2026-06-polisher.jpg
     - name: Analytical Balance (320 g / 0.001 g)
+      name_ko: 정밀 저울 (320 g / 0.001 g)
       maker: A&D, GF-303A
-      note: Arrived November 2026
-      note_ko: 정밀 저울, 2026년 11월 입고
+      note: For weighing · Installed November 2026
+      note_ko: 무게 측정용 · 2026년 11월 설치
       image: facility/balance.jpg

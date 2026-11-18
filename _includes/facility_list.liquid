@@ -6,12 +6,13 @@
 <div class="astro-equip">
 {% for item in group.items %}
 <div class="astro-equip-item">
+{% assign iname = item.name %}{% if ko and item.name_ko %}{% assign iname = item.name_ko %}{% endif %}
 {% if item.image %}
-<img src="{{ item.image | prepend: '/assets/img/' | relative_url }}" alt="{{ item.name }}" loading="lazy">
+<img src="{{ item.image | prepend: '/assets/img/' | relative_url }}" alt="{{ iname }}" loading="lazy">
 {% else %}
 <div class="astro-equip-noimg">{% if item.coming %}<span>{% if ko %}곧 들어옵니다<br>기대해 주세요!{% else %}Coming soon<br>stay tuned!{% endif %}</span>{% endif %}</div>
 {% endif %}
-<p class="astro-equip-name">{{ item.name }}{% if item.coming %} <span class="astro-equip-badge">{% if ko %}도입 예정{% else %}Coming soon{% endif %}</span>{% endif %}</p>
+<p class="astro-equip-name">{{ iname }}{% if item.coming %} <span class="astro-equip-badge">{% if ko %}도입 예정{% else %}Coming soon{% endif %}</span>{% endif %}</p>
 {% if item.maker %}<p class="astro-equip-maker">{{ item.maker }}</p>{% endif %}
 {% assign note = item.note %}{% if ko and item.note_ko %}{% assign note = item.note_ko %}{% endif %}
 {% if note %}<p class="astro-equip-maker">{{ note }}</p>{% endif %}
