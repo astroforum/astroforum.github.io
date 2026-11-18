@@ -16,3 +16,7 @@ Research focus: Thermodynamics-based alloy design and processing
 
 - Ph.D., Materials Science and Engineering, Seoul National University, 2022
 - B.S., Materials Science and Engineering, Hanyang University, 2015
+
+**Professional Activities**
+
+- 2026.11 – present: Early Career Editorial Board Member, *Metals* (MDPI)

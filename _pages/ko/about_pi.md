@@ -16,3 +16,7 @@
 
 - 서울대학교 재료공학 박사, 2022
 - 한양대학교 재료공학 학사, 2015
+
+**학술 활동**
+
+- 2026.11 – 현재: *Metals* (MDPI) Early Career Editorial Board 위원
