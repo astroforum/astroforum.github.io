@@ -33,6 +33,11 @@
 - category: Sample Preparation
   category_ko: 시편 제작
   items:
+    - name: Automatic Cut-off Machine
+      maker: TOPTECH, ALTOCUT
+      note: Installed November 2026
+      note_ko: 자동 정밀 절단기, 2026년 11월 설치
+      image: facility/cutter.jpg
     - name: Auto Grinder/Polisher (twin-wheel)
       maker: TOPTECH
       image: blog/2026-06-polisher.jpg
