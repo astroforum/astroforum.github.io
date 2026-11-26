@@ -9,7 +9,7 @@ tags: [lab, facility]
 thumbnail: assets/img/blog/2026-11-indenter-camera-setup.jpg
 ---
 
-압입 경도 시험기에 카메라를 직접 만들어 달고, 함께 쓸 프로그램도 직접 만들었습니다.
+압입 경도 시험기에 카메라를 직접 만들어 달고, 함께 쓸 프로그램도 직접 만들었습니다. 카메라 거치대도 직접 설계해 연구실 3D 프린터로 출력했습니다.
 
 ![카메라를 단 ASTRO Lab 압입 경도 시험기](/assets/img/blog/2026-11-indenter-camera-setup.jpg){: .img-fluid .rounded .z-depth-1}
 
